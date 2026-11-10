@@ -13,7 +13,7 @@ N days, and which themes would that loss come from?"*
 
 | # | Objective | Output | Status |
 |---|-----------|--------|--------|
-| 1 | **Pull data** — daily prices for holdings, theme baskets, market index and macro factors (gold, AUDUSD) in AUD | `data/prices.parquet` | ☐ |
+| 1 | **Pull data** — daily prices for holdings, theme baskets, market index and macro factors (gold, AUDUSD) in AUD | `data/prices.parquet` | ☑ |
 | 2 | **Build theme factors** — equal-weight basket returns, orthogonalised against the market | `outputs/factors.parquet` | ☐ |
 | 3 | **Regress** — each holding on Market + theme factors (ridge) to get exposures and idiosyncratic vol | `outputs/exposures.csv` | ☐ |
 | 4 | **Monte Carlo** — simulate factor + idiosyncratic returns over the horizon (Student-t and block bootstrap) | `outputs/sims.parquet` | ☐ |

@@ -1,0 +1,21 @@
+data:
+  start: "2019-01-01"     # first date to download
+  min_history_days: 250   # drop tickers with fewer daily observations
+  max_daily_move: 0.40    # flag |daily return| above this as a possible data error
+  max_fill_days: 5        # longest gap forward-filled (holidays); longer gaps stay NaN
+
+risk:
+  horizon_days: 10
+  confidence: [0.95, 0.99]
+  n_sims: 50000
+  method: t               # t | bootstrap
+  ewma_lambda: 0.97
+  t_df: 5
+  block_size: 10          # bootstrap block length (days)
+  ridge: 1.0
+
+backtest:
+  window_days: 500
+  step_days: 5
+
+seed: 42

@@ -1,0 +1,14 @@
+# Holdings and market values in the base currency (AUD).
+# Example portfolio: 10 ASX stocks, 10% each of A$1,000,000.
+base_currency: AUD
+holdings:
+  NXT.AX: 100000   # NextDC - data centres
+  CSC.AX: 100000   # Capstone Copper (ASX CDIs)
+  WHC.AX: 100000   # Whitehaven Coal
+  NXG.AX: 100000   # NexGen Energy (ASX CDIs) - uranium
+  GMG.AX: 100000   # Goodman Group - industrial property / data centres
+  MP1.AX: 100000   # Megaport - network-as-a-service
+  SDR.AX: 100000   # SiteMinder - hotel software
+  BHP.AX: 100000   # BHP - diversified miner
+  CBA.AX: 100000   # Commonwealth Bank
+  AMC.AX: 100000   # Amcor - packaging

@@ -1,0 +1,14 @@
+# Market index, extra macro factors and theme baskets.
+# A holding may appear in a theme basket; a holding in no basket (e.g. AMC)
+# is explained by the market and extra factors only.
+market: ^AXJO            # S&P/ASX 200
+extra_factors:
+  - AUDUSD=X             # AUD/USD exchange rate
+themes:
+  Data centres:   [NXT.AX, MP1.AX, GMG.AX, MAQ.AX, IFT.AX]
+  Copper:         [CSC.AX, SFR.AX, 29M.AX]
+  Uranium:        [NXG.AX, PDN.AX, BOE.AX, DYL.AX, LOT.AX]
+  Coal:           [WHC.AX, YAL.AX, NHC.AX, SMR.AX]
+  Iron ore:       [BHP.AX, RIO.AX, FMG.AX]
+  Banks:          [CBA.AX, WBC.AX, NAB.AX, ANZ.AX]
+  Tech & SaaS:    [SDR.AX, XRO.AX, WTC.AX, TNE.AX]
